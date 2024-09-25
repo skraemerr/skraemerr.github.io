@@ -1,0 +1,141 @@
+nav{
+    background-color: gray;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 0 40px;
+    align-items: center;
+    border-radius: 35px;
+    > div{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        > a{
+            color: white;
+            padding: 7px;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0,5s;
+        }
+    }
+    > img{
+        height: 40px;
+    }
+}
+
+nav > a:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
+}
+
+#dropdown-toggle {
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+}
+
+.dropdown-btn {
+    background-color: gold;
+    color: black;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    margin-top: 43px;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius: 7px;
+    font-size: small;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+    color: white;
+}
+
+#dropdown-toggle:checked + .dropdown-btn + .dropdown-content {
+    display: block;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.cards > a{
+    height: 850px;
+    width: 1200px;
+    border-radius: 20px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.cards > a > img{
+    width: 1200px;
+    height: 650px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.cards > a > label{
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Candara;
+    font-size: large;
+    text-transform: uppercase;
+    text-decoration: bold;
+}
+
+body{
+    background-color: dimgrey;
+    color: black;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pesquisar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.pesquisar > input{
+    width: 460px;
+    border: none;
+    font-size: medium;
+    outline: none;
+}
