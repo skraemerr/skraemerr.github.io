@@ -1,3 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
 nav{
     background-color: gray;
     height: 60px;
@@ -22,11 +29,6 @@ nav{
     > img{
         height: 40px;
     }
-}
-
-nav > a:hover{
-    background-color: lightslategray;
-    text-decoration: underline;
 }
 
 #dropdown-toggle {
@@ -78,64 +80,6 @@ nav > a:hover{
     display: block;
 }
 
-.cards{
-    display: flex;
-    gap: 20px;
-    padding: 15px;
-    flex-wrap: wrap;
-    transition: 0.25s;
-}
-
-.cards > a{
-    height: 175px;
-    width: 200px;
-    border-radius: 20px;
-    background-color: gainsboro;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: black;
-    transition: 0.25s;
-}
-
-.cards > a > img{
-    width: 200px;
-    height: 120px;
-    border: 2px solid gray;
-    border-radius: 16px;
-    transition: 0.25s;
-}
-
-.cards > a > label{
-    width: 200px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Candara;
-    font-size: large;
-
-}
-
-.cards > a:hover{
-    background-color: gray;
-    color: gainsboro;
-    height: 160px;
-    width: 185px;
-    > img {
-        height: 110px;
-        width: 185px;
-    }
-}
-
-body{
-    background-color: dimgrey;
-    color: black;
-    margin: 5px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .pesquisar{
     background-color: white;
     display: flex;
@@ -150,5 +94,44 @@ body{
     border: none;
     font-size: medium;
     outline: none;
+}
+
+nav > a:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
+}
+
+.cabecalho {
+    background-color: rgb(88, 88, 88);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.conteudo {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sobre, .objetivo {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+    transition: 0.25s;
+}
+
+h2:hover{
+    font-size: 30px;
+}
+
+p {
+    color: #555;
+}
+
+.autor{
+    color: white;
 }
 

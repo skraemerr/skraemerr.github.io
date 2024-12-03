@@ -1,4 +1,3 @@
-/* Resetando o estilo padrão */
 * {
     margin: 0;
     padding: 0;
@@ -111,5 +110,4 @@
   .opcoes a:hover {
     text-decoration: underline;
   }
-  
-  
+

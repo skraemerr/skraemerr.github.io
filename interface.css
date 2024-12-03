@@ -83,49 +83,38 @@ nav > a:hover{
     gap: 20px;
     padding: 15px;
     flex-wrap: wrap;
-    transition: 0.25s;
 }
 
 .cards > a{
-    height: 175px;
-    width: 200px;
+    height: 850px;
+    width: 1200px;
     border-radius: 20px;
-    background-color: gainsboro;
+    background-color: none;
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color: black;
+    color: white;
     transition: 0.25s;
 }
 
 .cards > a > img{
-    width: 200px;
-    height: 120px;
-    border: 2px solid gray;
+    width: 1200px;
+    height: 650px;
     border-radius: 16px;
-    transition: 0.25s;
+    background-color: white;
 }
 
 .cards > a > label{
-    width: 200px;
-    height: 60px;
+    width: 1100px;
+    height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-family: Candara;
     font-size: large;
-
-}
-
-.cards > a:hover{
-    background-color: gray;
-    color: gainsboro;
-    height: 160px;
-    width: 185px;
-    > img {
-        height: 110px;
-        width: 185px;
-    }
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: bold;
 }
 
 body{
@@ -151,4 +140,3 @@ body{
     font-size: medium;
     outline: none;
 }
-
