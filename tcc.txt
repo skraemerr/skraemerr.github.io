@@ -27,10 +27,10 @@ NOME:
 SAMUEL DE OLIVEIRA KRAEMER
 
 GITHUB: 
--
+- skraemerr
 
 NOME DO SITE: 
--
+- Streamify
 
 DESCRIÇÃO DO SITE: 
 ESSE É UM SITE PRODUZIDO POR SAMUEL QUE TEM COMO OBJETIVO PROPORCIONAR UM LOCAL PARA ACESSAR CONTEÚDOS EM FORMATO DE VÍDEO,
@@ -39,6 +39,17 @@ E MARKETEIRO.
 
 PÁGINAS:
 
-index.html	Página inicial...
-?.html		...
-?.html		...
+index.html - Página de Login
+paginainicial.html - Página Principal
+video.html - Página de Reprodução
+video2.html - Página de Reprodução
+descricao1.html - Página de Descrição do site
+descricao2.html - Página de Descrição do site
+descricao3.html - Página de Descrição do site
+ajuda1.html - Central de Ajuda
+ajuda2.html - Central de Ajuda
+ajuda3.html - Central de Ajuda
+ajuda5.html - Central de Ajuda
+ajuda6.html - Central de Ajuda
+ajuda7.html - Central de Ajuda
+ajuda8.html - Central de Ajuda
