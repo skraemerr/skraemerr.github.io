@@ -78,45 +78,6 @@ nav > a:hover{
     display: block;
 }
 
-.cards{
-    display: flex;
-    gap: 20px;
-    padding: 15px;
-    flex-wrap: wrap;
-}
-
-.cards > a{
-    height: 850px;
-    width: 1200px;
-    border-radius: 20px;
-    background-color: none;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: white;
-    transition: 0.25s;
-}
-
-.cards > a > img{
-    width: 1200px;
-    height: 650px;
-    border-radius: 16px;
-    background-color: white;
-}
-
-.cards > a > label{
-    width: 1100px;
-    height: 100px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-family: Candara;
-    font-size: large;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: bold;
-}
-
 body{
     background-color: dimgrey;
     color: black;
@@ -139,4 +100,47 @@ body{
     border: none;
     font-size: medium;
     outline: none;
+}
+
+.video-container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1200px;
+    background-color: gray;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 15px;
+}
+
+.video-player {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.video-detalhes {
+    text-align: center;
+}
+
+.video-detalhes h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    transition: 0.25s;
+}
+
+.video-detalhes p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.video-detalhes h2:hover {
+    font-size: 30px;
 }

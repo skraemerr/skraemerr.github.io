@@ -99,7 +99,7 @@ nav > a:hover{
 }
 
 .cards > a > img{
-    width: 200px;
+    width: 197px;
     height: 120px;
     border: 2px solid gray;
     border-radius: 16px;
@@ -124,7 +124,7 @@ nav > a:hover{
     width: 185px;
     > img {
         height: 110px;
-        width: 185px;
+        width: 182px;
     }
 }
 
